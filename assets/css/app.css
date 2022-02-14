@@ -16,6 +16,7 @@ body {
   border: 1px solid #5c0c8a;
   color: #5c0c8a;
   font-size: 14px;
+  border-radius: 8px;
 }
 .btn-outline-pedia:hover {
   transition: 0.5s ease;
@@ -28,6 +29,7 @@ body {
   color: #fff;
   font-size: 14px;
   background: #5c0c8a;
+  border-radius: 8px;
 }
 .btn-pedia:hover {
   transition: 0.5s ease;
@@ -51,15 +53,17 @@ body {
   border-bottom: 1px solid #ececec;
 }
 #content #navigation .custom-nav {
+  display: flex;
   padding: 0.3em;
   background-color: #e5f1fd9e;
   border-radius: 8px;
 }
-#content #navigation .custom-nav .nav-link {
+#content #navigation .custom-nav .nav-link__ {
   color: #343f5b;
   font-weight: 500;
   padding: 6px 20px;
   border-radius: 8px;
+  font-size: 14px;
 }
 #content #navigation .custom-nav .active {
   background: #5c0c8a;

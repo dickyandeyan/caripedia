@@ -2,6 +2,7 @@
 body {
 	font-family: 'Poppins', sans-serif;
 }
+
 // Global Style
 .text-title {
 	font-family: 'Poppins', sans-serif;
@@ -16,6 +17,7 @@ body {
    border: 1px solid #5c0c8a;
    color: #5c0c8a;
    font-size: 14px;
+   border-radius: 8px;
 
    &:hover {
       transition: 0.5s ease;
@@ -29,6 +31,7 @@ body {
    color: #fff;
    font-size: 14px;
    background: #5c0c8a;
+   border-radius: 8px;
 
    &:hover {
       transition: 0.5s ease;
@@ -49,21 +52,23 @@ body {
 }
 
 #content {
-	padding-top: 4.1em;
-
+   padding-top:  4.1em;
 	#navigation {
 		padding-bottom: 0.6em;
 		border-bottom: 1px solid #ececec;
+
 		.custom-nav {
+         display: flex;
 			padding: 0.3em;
 			background-color: #e5f1fd9e;
 			border-radius: 8px;
 
-			.nav-link {
+			.nav-link__ {
 				color: #343f5b;
 				font-weight: 500;
 				padding: 6px 20px;
             border-radius: 8px;
+            font-size: 14px;
 			}
 
 			.active {
